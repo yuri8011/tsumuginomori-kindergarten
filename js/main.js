@@ -25,8 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const leadTitle = document.querySelector('#lead .lead-title');
     if (leadTitle) {
         const leadTitleObserverOptions = {
-            root: null, 
-            rootMargin: '0px', 
+            root: null,
+            rootMargin: '0px',
             threshold: 0.2,
         };
 
